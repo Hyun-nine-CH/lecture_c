@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=n-1;i>=0;i--){
+    for(int i=n-1;i>=0;i--){ // 거꾸로 출력
         printf("%d ",arr[i]);
     }
 }
